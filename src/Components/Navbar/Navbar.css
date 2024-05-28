@@ -1,0 +1,89 @@
+/* src/Navbar.css */
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:  20px;
+    padding-right:  30px;
+    height: 64px;
+    background-color: #181A20;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .logo h6{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    font-family: 'Roboto', sans-serif;
+    color: #F0B90B;
+    margin: 0;
+  }
+  
+  .nav-items {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-items li {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: 'Arial', sans-serif;
+    color: #EAECEF;
+    margin: 0;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar-right button:nth-child(1) {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Arial', sans-serif;
+    font-size: 8.53px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #EAECEF;
+    cursor: pointer;
+  }
+  
+ 
+
+  .navbar-right button:nth-child(2) {
+    width: 64.92px;
+    height: 32px;
+    border-radius: 6px;
+    background-color: #FCD535;
+    box-shadow: 0px 4px 4px 0px #FFFFFF40;
+    font-family: 'Arial', sans-serif;
+    font-size: 13.78px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #202630;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
